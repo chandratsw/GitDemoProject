@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 // Force this test file to launch a maximized browser
 
-test('has title', async ({ browser }) => {
+test('has title',{tag: ['@playwrightwithjenkins']}, async ({ browser }) => {
 
   const page = await browser.newPage();
     await page.setViewportSize(
@@ -17,7 +17,7 @@ test('has title', async ({ browser }) => {
   await expect(page).toHaveTitle(/Playwright/);
 });
 
-test('get started link', async ({ page }) => {
+test('get started link', {tag: ['@playwrightwithjenkins','@critical']}, async ({ page }) => {
    
   await page.goto('https://playwright.dev/');
 
