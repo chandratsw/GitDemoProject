@@ -28,7 +28,7 @@ test('User can navigate to the dashboard',{tag: '@regression'}, async ({ page })
 });
 
 // Test Case 2: Will run after the beforeEach hook completes
-test("LanguageSkills-MouseOverTest",async({page})=>
+test("LanguageSkills-MouseOverTest @sanity" ,async({page})=>
 {   
    //await page.locator('#admin > a > span').hover();
    //await page.locator('#admin > ul > li:nth-child(4) > a > span').hover();
