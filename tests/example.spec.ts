@@ -17,7 +17,7 @@ test('has title',{tag: ['@playwrightwithjenkins']}, async ({ browser }) => {
   await expect(page).toHaveTitle(/Playwright/);
 });
 
-test.only('get started link', {tag: ['@playwrightwithjenkins','@critical']}, async ({ page }) => {
+test('get started link', {tag: ['@playwrightwithjenkins','@critical']}, async ({ page }) => {
    
   await page.goto('https://playwright.dev/');
 
