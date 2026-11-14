@@ -47,7 +47,7 @@ test("LanguageSkills-MouseOverTest @sanity" ,async({page})=>
 test ('PIM-MouseoverTest @smoke', async ({ page }) =>
 {
     await page.getByText('PIM').highlight();
-    await page.getByText('test').hover();
+    await page.getByText('PIM').hover();
     await page.waitForTimeout(3000);
     await page.getByText('Add Employee').click();
     await page.waitForTimeout(3000);
