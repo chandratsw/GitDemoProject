@@ -1,0 +1,8 @@
+BeforeAll-Started
+Application Opened
+Username and Password entered
+Login completed
+BeforeAll completed
+User can navigate to the dashboard @regression @smoke-Started
+Verified User Login completion
+User can navigate to the dashboard @regression @smoke-Completed

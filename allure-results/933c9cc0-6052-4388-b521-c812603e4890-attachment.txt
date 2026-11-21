@@ -1,0 +1,6 @@
+Application Opened
+Username and Password entered
+Login completed
+Finished User can navigate to the dashboard with status passed
+After Each Completed
+User can navigate to the dashboard

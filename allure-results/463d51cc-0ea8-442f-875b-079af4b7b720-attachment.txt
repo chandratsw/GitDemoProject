@@ -1,0 +1,6 @@
+Application Opened
+Username and Password entered
+Login completed
+Finished PIM-MouseoverTest @smoke with status passed
+After Each Completed
+PIM-MouseoverTest @smoke
