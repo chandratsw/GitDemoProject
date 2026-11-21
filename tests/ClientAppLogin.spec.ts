@@ -1,11 +1,6 @@
 import {test,expect} from "@playwright/test"
 
-test.use({
-  viewport: null,
-  launchOptions: {
-    args: ['--start-maximized'],
-  },
-});
+
 
 test('@Web Client App login', async ({ page }) => {
    //js file- Login js, DashboardPage
