@@ -1,0 +1,7 @@
+Application Opened
+Username and Password entered
+Login completed
+Languages menuitem has been clicked
+Finished LanguageSkills-MouseOverTest @sanity with status passed
+After Each Completed
+LanguageSkills-MouseOverTest @sanity

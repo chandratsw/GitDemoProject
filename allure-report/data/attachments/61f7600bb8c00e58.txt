@@ -1,0 +1,11 @@
+BeforeAll-Started
+Application Opened
+Username and Password entered
+Login completed
+BeforeAll completed
+PIM-mouseoverTest-Started
+Add Employee has been clicked
+PIM-mouseoverTest-Completed
+AfterAll-Started
+Logout completed
+AfterAll Completed

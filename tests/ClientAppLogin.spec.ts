@@ -1,7 +1,5 @@
 import {test,expect} from "@playwright/test"
 
-
-
 test('@Web Client App login', async ({ page }) => {
    //js file- Login js, DashboardPage
    const email = "jaychandra.qa@gmail.com";
@@ -59,11 +57,11 @@ const orderId=await page.locator(".em-spacer-1 .ng-star-inserted").textContent()
 console.log(orderId);
 await page.locator("button[routerlink*='myorders']").click();
 await page.locator("tbody").waitFor();
-const rows=await page.locator('tbody tr');
+const rows= page.locator('tbody tr');
 const rowscount=await rows.count();
 for(let i=0;i<rowscount;i++)
 {
-   const rowOrderId=await rows.nth(i).locator("th").textContent();
+   const rowOrderId : string|null = await rows.nth(i).locator("th").textContent();
    
    if(orderId?.includes(rowOrderId))
    {
